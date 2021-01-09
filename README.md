@@ -1,7 +1,7 @@
 # Weihnachtsspiel-ChristlsMission-pkikl
 
 ### Project description: 
-Introduction/Project summary 
+The Christkind has to collect the letters of all children in order to safe christmas.
 
 ### Development platform: 
 Windows 10, Unity 2020.1.5f1, Visual Studio 2019
