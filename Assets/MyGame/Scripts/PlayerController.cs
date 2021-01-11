@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {   
     public float speed;
-
+    int countCollision = 0;
 
 
     // Start is called before the first frame update
@@ -19,5 +19,24 @@ public class PlayerController : MonoBehaviour
     {
         float moveHorizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         transform.position += new Vector3(moveHorizontal, 0, 0);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.name == "Enemy")
+        {
+            Debug.Log("-1");
+            countCollision--;
+        }
+        else if(collision.name == "LetterBox")
+        {
+            countCollision = 0;
+        }
+        else if(collision.name == "BriefWhitebox")
+        {
+            countCollision++;
+        }
+
+        Debug.Log("Count Collisions " + countCollision);
+
     }
 }
