@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Stop Game");
+            SceneManager.LoadScene("MainScene");
         }
 
        
