@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI scoreBag;
     
     int countCollision = 0;
-    int collisionToScore = 0;
+    public static int collisionToScore = 0;
     
 
 
