@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
             canvasEndscreen.SetActive(true);
             int showResult = PlayerController.collisionToScore;
 
-            endscore.text = "Your Score is " + showResult.ToString();
+            endscore.text = "Your Score is " + showResult.ToString() + "!";
 
            
         }
@@ -53,8 +53,9 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
+        PlayerController.collisionToScore = 0;
         SceneManager.LoadScene("MainScene");
-        Debug.Log("ende");
+        
     }
 
 
