@@ -10,7 +10,11 @@ Windows 10, Unity 2020.1.5f1, Visual Studio 2019
 WebGL ref,res 960px x 600px, Screen Independent
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+
+<div>
+<img src="./Screenshots/UnityIngame.jpg" width="250">
+<img src="./Screenshots/UnityEndscreen.jpg" width="250">
+</div>
 
 ### Necessary setup/execution steps: 
 After cloning, executing in Unity
@@ -19,7 +23,7 @@ After cloning, executing in Unity
 Graphics by Peter Kikl
 
 ### Project state: 
-50%
+80%
 
 ### Limitations: 
 
