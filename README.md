@@ -30,4 +30,8 @@ Graphics by Peter Kikl
 4. Making a Score-Count
 5. Adding a random spawnrate on GameObjects
 6. Adding movement to a GameObject
+
+
+
+
 Copyright by Peter Kikl
