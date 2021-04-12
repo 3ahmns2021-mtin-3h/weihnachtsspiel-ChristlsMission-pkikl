@@ -9,6 +9,17 @@ Windows 10, Unity 2020.1.5f1, Visual Studio 2019
 ### Target platform: 
 WebGL ref,res 960px x 600px, Screen Independent
 
+### MVP:
+- Christkind kann nach links & rechts fliegen
+- Es muss Briefe einsammeln und den Vögeln ausweichen
+- Zufällig erscheinen Kisten, wo es die Briefe lagern kann und somit den Score erhöhen kann
+- Die Zeit rinnt nach unten
+
+
+https://user-images.githubusercontent.com/72299690/114377478-fe577700-9b86-11eb-920a-9846a342be10.mp4
+
+
+
 ### Visuals: 
 
 <div>
