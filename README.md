@@ -15,11 +15,6 @@ WebGL ref,res 960px x 600px, Screen Independent
 - Zufällig erscheinen Kisten, wo es die Briefe lagern kann und somit den Score erhöhen kann
 - Die Zeit rinnt nach unten
 
-
-https://user-images.githubusercontent.com/72299690/114377478-fe577700-9b86-11eb-920a-9846a342be10.mp4
-
-
-
 ### Visuals: 
 
 <div>
