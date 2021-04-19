@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   letterPrefab: {fileID: 5013635372145990531, guid: 04bd26c9be8fb6d47954b70b7f3fe37e, type: 3}
   parentSpawnGo: {fileID: 1844392006}
-  nextSpawn: 4
+  nextSpawn: 2
   spawnRate: 3
 --- !u!4 &1011815375
 Transform:
